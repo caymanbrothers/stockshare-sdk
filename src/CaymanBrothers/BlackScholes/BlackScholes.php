@@ -161,7 +161,7 @@ class BlackScholes
             $return['BlackScholes']['Options']['Put']['Greeks'] = array('delta' => $this->delta_put(), 'gamma' => $this->gamma(), 'theta' => $this->theta_put(), 'vega' => $this->vega(), 'rho' => $this->rho_put());
        }
 
-        return $return;
+       return $return;
     }
 
 }
