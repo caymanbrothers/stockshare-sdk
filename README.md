@@ -1,4 +1,4 @@
-# Cayman Brothers StockShare SDK (v1)
+# Cayman Brothers StockShare SDK (v1.0)
 [![Latest Stable Version](http://img.shields.io/badge/Latest%20Stable-1.0-blue.svg)](https://packagist.org/packages/caymanbrothers/stockshare-sdk)
 
 PHP SDK developed by Cayman Brothers Corporation for the analysis and valuation of equity derivative options.
