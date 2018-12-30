@@ -12,7 +12,6 @@
     "require": {
         "php": ">=5.3.0"
     },
-    "minimum-stablity": "dev",
     "autoload": {
         "psr-4": {
             "CaymanBrothers\\": "src/CaymanBrothers"
