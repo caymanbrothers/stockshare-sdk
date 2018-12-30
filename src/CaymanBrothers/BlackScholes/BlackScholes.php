@@ -145,9 +145,9 @@ class BlackScholes
     public function return()
     {
 
-        if (isset($this->call)) {
+       if (isset($this->call)) {
             $return['BlackScholes']['Options']['Call']['Price'] = $this->call();
-        }
+       }
 
        if (isset($this->put)) {
             $return['BlackScholes']['Options']['Put']['Price'] = $this->put();
@@ -159,7 +159,7 @@ class BlackScholes
 
        if (isset($this->put) && $this->greeks) {
             $return['BlackScholes']['Options']['Put']['Greeks'] = array('delta' => $this->delta_put(), 'gamma' => $this->gamma(), 'theta' => $this->theta_put(), 'vega' => $this->vega(), 'rho' => $this->rho_put());
-        }
+       }
 
         return $return;
     }
