@@ -1,19 +1,18 @@
-{   
-    "name": "CaymanBrothers Stock-Share PHP SDK",
+{
+    "name": "caymanbrothers/stockshare-sdk",
     "description": "PHP SDK developed by Cayman Brothers Corporation for the analysis and valuation of equity derivative options.",
     "type": "library",
-    "homepage": "https://github.com/caymanbrothers/Stock-Share-PHP-SDK",
+    "license": "MIT",
     "authors": [
         {
             "name": "Stefan Kühnel",
-            "email": "contact@stefankuehnel.com",
-            "homepage": "https://stefankuehnel.com",
-            "role": "Developer"
+            "email": "contact@stefankuehnel.com"
         }
     ],
     "require": {
         "php": ">=5.3.0"
     },
+    "minimum-stablity": "dev",
     "autoload": {
         "psr-4": {
             "CaymanBrothers\\": "src/CaymanBrothers"
