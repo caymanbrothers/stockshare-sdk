@@ -68,7 +68,7 @@ class Greeks extends BlackScholesFunctions
     public function theta_put($S, $X, $t, $r, $o, $d1, $d2)
     {
 
-        $theta_put = -(($S*(exp(-pow($d1, 2)/2))/sqrt(2*pi())*$o)/(2*sqrt($t)))  +  $r*$X*exp(-$r*$t)*$this->N(-$d2);
+        $theta_put = -(($S*(exp(-pow($d1, 2)/2))/sqrt(2*pi())*$o)/(2*sqrt($t)))+$r*$X*exp(-$r*$t)*$this->N(-$d2);
 
         return $theta_put;
 
