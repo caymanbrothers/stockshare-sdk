@@ -5,8 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Stefan Kühnel",
-            "email": "contact@stefankuehnel.com"
+            "name": "Cayman Brothers Corporation",
+            "homepage": "https://github.com/caymanbrothers/stockshare-sdk/graphs/contributors"
         }
     ],
     "require": {
