@@ -11,6 +11,8 @@ The Cayman Brothers StockShare SDK can be installed with [Composer](https://getc
 composer require caymanbrothers/stockshare-sdk
 ```
 
+A short installation guide can also be found [here](https://l.stefankuehnel.com/v7yD1) as a video.
+
 ## Usage
 
 > **Note:** This version of the Cayman Brothers StockShare SDK for PHP requires PHP 5.3 or greater.
