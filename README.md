@@ -11,7 +11,7 @@ The Cayman Brothers StockShare SDK can be installed with [Composer](https://getc
 composer require caymanbrothers/stockshare-sdk
 ```
 
-A short installation guide can also be found [here](https://9bn.de/caymanbrothers/ssig) as a video.
+A short installation guide can also be found [here](https://youtu.be/HE-S7_E9ncU) as a video.
 
 ## Usage
 
